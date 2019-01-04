@@ -1,0 +1,737 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Alpha_Code",
+				"Alpha_Code_Zero"
+			],
+			[
+				"pri",
+				"printGraph\tvoid printGraph(LinkedList *helper_array, int V)"
+			],
+			[
+				"helper",
+				"helper_vector"
+			],
+			[
+				"new",
+				"newChirag"
+			],
+			[
+				"Delete",
+				"DeleteNode\tvoid DeleteNode(Node **_root, int key)"
+			],
+			[
+				"Dele",
+				"DeleteNode\tvoid DeleteNode(Node **_root, int key)"
+			],
+			[
+				"se",
+				"setData\tvoid setData(int toSet)"
+			],
+			[
+				"roo",
+				"root"
+			],
+			[
+				"printIn",
+				"printInOrder\tvoid printInOrder(Node *root)"
+			],
+			[
+				"searc",
+				"search\t(BST.h)"
+			],
+			[
+				"sea",
+				"search\tNode * search(Node *root, int key)"
+			],
+			[
+				"Morris",
+				"MorrisPreorder\tvoid MorrisPreorder(Node *root)"
+			],
+			[
+				"left",
+				"leftTree\tNode * leftTree"
+			],
+			[
+				"Morr",
+				"MorrisInorder\tvoid MorrisInorder(Node *root)"
+			],
+			[
+				"rig",
+				"rightMost\tNode * rightMost"
+			],
+			[
+				"righ",
+				"rightmost"
+			],
+			[
+				"org",
+				"orgs_list"
+			],
+			[
+				"ma",
+				"matches"
+			],
+			[
+				"ht",
+				"html_file\tstatement"
+			],
+			[
+				"url",
+				"urlopen\tfunction"
+			],
+			[
+				"urll",
+				"urllib\tmodule"
+			],
+			[
+				"ri",
+				"right\tt_Node * right"
+			],
+			[
+				"te",
+				"temp\tt_Node * temp"
+			],
+			[
+				"i",
+				"if\tIf Condition"
+			],
+			[
+				"printInOrde",
+				"printInOrder3\tvoid printInOrder3(t_Node *root)"
+			],
+			[
+				"co",
+				"cout"
+			],
+			[
+				"std",
+				"std\tstd::"
+			],
+			[
+				"ins",
+				"insert_Threaded"
+			],
+			[
+				"go",
+				"goToleft\tt_Node * goToleft(int *root)"
+			],
+			[
+				"ti",
+				"time\ttime_t time(time_t *__timer)"
+			],
+			[
+				"srand",
+				"srand\tvoid srand(unsigned int __seed)"
+			],
+			[
+				"sra",
+				"srand\tvoid srand(unsigned int __seed)"
+			],
+			[
+				"insert",
+				"insertAt"
+			],
+			[
+				"to",
+				"toReturn\t(myQueueimpl.h)"
+			],
+			[
+				"r",
+				"rightThread\tbool rightThread"
+			],
+			[
+				"tr",
+				"true\tbool true"
+			],
+			[
+				"findn",
+				"findnode\tt_Node * findnode(t_Node *root, int key)"
+			],
+			[
+				"wh",
+				"whichNode"
+			],
+			[
+				"print",
+				"printPreOrder"
+			],
+			[
+				"push",
+				"push\tvoid push(Node *tobe_pushed)"
+			],
+			[
+				"top",
+				"top\tNode * top()"
+			],
+			[
+				"is",
+				"isempty\tbool isempty()"
+			],
+			[
+				"prin",
+				"printPreOrder\tvoid printPreOrder(Node *root)"
+			],
+			[
+				"in",
+				"inc\t#include \"…\""
+			],
+			[
+				"name",
+				"namespace\tnamespace"
+			],
+			[
+				"p",
+				"pop\tNode * pop()"
+			],
+			[
+				"myQ",
+				"myQueue"
+			],
+			[
+				"my",
+				"myQ"
+			],
+			[
+				"max",
+				"max_height"
+			],
+			[
+				"le",
+				"level"
+			],
+			[
+				"prnt",
+				"printGivenLevel"
+			],
+			[
+				"d",
+				"data"
+			],
+			[
+				"ios",
+				"iostream\tstandard header"
+			],
+			[
+				"Sta",
+				"Stack_string"
+			],
+			[
+				"tem",
+				"temp"
+			],
+			[
+				"po",
+				"pop\tT pop()"
+			],
+			[
+				"temp",
+				"template"
+			],
+			[
+				"dele",
+				"deleteAllNodes"
+			],
+			[
+				"no",
+				"nodea\tNode nodea"
+			],
+			[
+				"Spa",
+				"SpanArray"
+			],
+			[
+				"Sp",
+				"SpanArray"
+			],
+			[
+				"Span",
+				"Span_Value"
+			],
+			[
+				"Sto",
+				"StockPrices\tint * StockPrices"
+			],
+			[
+				"the",
+				"theStack\tmyStack theStack"
+			],
+			[
+				"Stock",
+				"Stock_on_i\tint Stock_on_i"
+			],
+			[
+				"de",
+				"def\t#ifndef … #define … #endif"
+			],
+			[
+				"In",
+				"Input_Str"
+			],
+			[
+				"head",
+				"headtr"
+			],
+			[
+				"end",
+				"endl"
+			],
+			[
+				"nu",
+				"num_comp1"
+			],
+			[
+				"num",
+				"num_comp2"
+			],
+			[
+				"hea",
+				"headmvF"
+			],
+			[
+				"m",
+				"moveTofront"
+			],
+			[
+				"had",
+				"head_ref"
+			],
+			[
+				"N",
+				"NULL"
+			],
+			[
+				"crea",
+				"createNode"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\t",
+			"settings":
+			{
+				"buffer_size": 1,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"Dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"PRV",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: cppcode"
+			],
+			[
+				"Theme",
+				"UI: Select Theme"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Sche",
+				"UI: Select Color Scheme"
+			],
+			[
+				"Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"Them",
+				"UI: Select Theme"
+			],
+			[
+				"Anaconda:Sett",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"Colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"Dias",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 458.0
+	},
+	"console":
+	{
+		"height": 494.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"clear",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/cgupta3131/Workspace/CodeForces/xContests/Lyft_Level_5/Permutation_Game_C.cpp",
+		"/home/cgupta3131/Workspace/CodeForces/xContests/Lyft_Level_5/Square_Difference_B.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Number_Theory/Advanced_GCD.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Number_Theory/find_primes_Sieve_of_Eratos.cpp",
+		"/home/cgupta3131/Workspace/CodeForces/xContests/Lyft_Level_5/King_Escape_A.cpp",
+		"/home/cgupta3131/Desktop/Sem3/CS210/Sort/mysorting.cpp",
+		"/home/cgupta3131/Desktop/Sem3/CS210/Sort/sorting.cpp",
+		"/home/cgupta3131/Desktop/Sem3/CS210/Sort/Ubuntu_(operating_system)",
+		"/home/cgupta3131/.wgetrc",
+		"/home/cgupta3131/Workspace/REST_API_HACKATHON/shows_AverageRating.py",
+		"/home/cgupta3131/Workspace/REST_API_HACKATHON/flask_server.py",
+		"/home/cgupta3131/Workspace/REST_API_HACKATHON/flask_api.py",
+		"/home/cgupta3131/Workspace/REST_API_HACKATHON/flask_api2.py",
+		"/home/cgupta3131/Workspace/REST_API_HACKATHON/Todo_Better.py",
+		"/etc/hostname",
+		"/etc/hosts",
+		"/home/cgupta3131/.bashrc",
+		"/home/cgupta3131/.bash_history",
+		"/home/cgupta3131/.bash_logout",
+		"/home/cgupta3131/bashrc",
+		"/home/cgupta3131/bashr",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/Test.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/Number_of_R.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/Max_Sum_Subarray.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/coin_change.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/StairCase.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/Princess_Farida.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/Bitonic_Test.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/Bitonic_SubArray.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/Longest_Incr_SubSeq.cpp",
+		"/home/cgupta3131/Downloads/0000000000001543s/small/in/input3.txt",
+		"/home/cgupta3131/Downloads/0000000000001543s/small/out/output3.txt",
+		"/home/cgupta3131/Downloads/0000000000001543s/small/out/output2.txt",
+		"/home/cgupta3131/Downloads/0000000000001543s/small/in/input2.txt",
+		"/home/cgupta3131/Downloads/0000000000001543s/small/out/output1.txt",
+		"/home/cgupta3131/Downloads/0000000000001543s/small/in/input1.txt",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/num_codes.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/fib.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/Alpha_Code_test.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/a.out",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/Alpha_Code.cpp",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab2_Post_MidSem/Shell_Scripting",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab2_Post_MidSem/Answers/Answers",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab2_Post_MidSem/Answers/Scripts/second.sh",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_Post_MidSem/Answers/Awk_Answers.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab2_Post_MidSem/Answers/Scripts/first.sh",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab2_Post_MidSem/Answers/Answers.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab2_Post_MidSem/Testing_Shell_Scripting/continue.sh",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab2_Post_MidSem/Testing_Shell_Scripting/break_nested.sh",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab2_Post_MidSem/Testing_Shell_Scripting/break.sh",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab2_Post_MidSem/Testing_Shell_Scripting/loops.sh",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab2_Post_MidSem/Testing_Shell_Scripting/special_variables.sh",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab2_Post_MidSem/Testing_Shell_Scripting/test.sh",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_Post_MidSem/Answers/Sed_Answers.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab2_Post_MidSem/auth.log",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_Post_MidSem/grepCommands.txt",
+		"/home/cgupta3131/Downloads/small/in/input1.txt",
+		"/home/cgupta3131/Downloads/small/out/output1.txt",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/output.txt",
+		"/home/cgupta3131/Downloads/small/out/output2.txt",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Dynamic_Programming/input2.txt",
+		"/home/cgupta3131/Downloads/small/in/input2.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Answers/msg.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Testing_sedCommands/file.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Answers/QuizProgram.java",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Answers/email_old.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Answers/words.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Answers/Grep_Answers.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/grepCommands.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Answers/Awk_Answers.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Answers/A",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/awkCommands.txt",
+		"/dev/null",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Answers/sample.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Answers/sample0.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Answers/File_$x",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Answers/A3-PartA.pdf",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Unix_Shell_Scripting/awkCommands.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Unix_Shell_Scripting/Answers/sample.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Unix_Shell_Scripting/Answers/Awk_Answers.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Unix_Shell_Scripting/Testing_awkCommands/employee.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Unix_Shell_Scripting/Testing_awkCommands/emp.awk",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Unix_Shell_Scripting/Commands.txt",
+		"/home/cgupta3131/Desktop/Sem3/CS241_Lab/Lab1_post_midSem/Unix_Shell_Scripting/Testing/~bashrc",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/2_Number_Theory_Assignment/GCD_Extreme.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/2_Number_Theory_Assignment/Cubic_Square.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/2_Number_Theory/Modular_Exp_Rec_Iter.cpp",
+		"/home/cgupta3131/Desktop/Sem3/CS210/Lab1/Assignment/main.cpp",
+		"/home/cgupta3131/Desktop/Sem3/CS210/Lab1/Assignment/Graph.h",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/2_Number_Theory/Euler_Totient_Code.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Number_Theory/gcd.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/2_Number_Theory/LCM_SUM.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/2_Number_Theory/Income_Nth_Day.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/2_Number_Theory/Boring_Factorials.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/2_Number_Theory/Fibonaaci.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/2_Number_Theory/Fibonaaci",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/2_Number_Theory/FibonaaciSum.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Number_Theory_Assignment/Cube_Free_Number.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Number_Theory_Assignment/Number_of_Factors.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/2_Number_Theory/Modular_Exp_Rec.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Binomial_Heap/Implement.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Number_Theory/Divisors_Factorial.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Number_Theory/Sachin_Varun.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Number_Theory/Modulo_Inverse.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Number_Theory/Extended_Euclid.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Number_Theory/number_balanced_bt.cpp",
+		"/home/cgupta3131/Workspace/Competitive_Coding_Coding_Ninjas/1_Number_Theory/find_primes.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Graphs-1/TopologicalSort.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Graphs-1/Graphs_Class/webPages_Kosaraju_algo.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Graphs-1/Graphs_Class/DFS_stack.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Graphs-1/Graphs_Class/DFS_stack_LL.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Binary_Trees/buildingtrees.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Graphs-1/Graphs_Class/DFS_colourCode.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Graphs-1/Graphs_Class/shortest_distance_path.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Graphs-1/Graphs_Class/BFS_colourCode.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Binary_Search_Trees/ThreadedNode2.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Binary_Search_Trees/LCA_BST.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Binary_Search_Trees/LCA_BT.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Binary_Trees/MorrisInorder.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Binary_Search_Trees/ThreadedNode.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Binary_Search_Trees/ThreadedNode",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Binary_Trees/Stacks_Inorder_BT.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Binary_Trees/Stacks_inorder.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Binary_Trees/order.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Binary_Trees/BinaryTreeUse.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/LinkedList/first.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/order.cpp",
+		"/home/cgupta3131/Workspace/Data_Structures_Coding_Ninjas/Binary_Trees/parent.cpp"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"partition",
+			"best",
+			"current",
+			"z",
+			"Redic",
+			"redire",
+			"for",
+			"515042969",
+			"echo",
+			"1) Syntax\n\t\n\tawk options 'selection_criteria {actions} ' input_file\n\n2) selection_criteria -> will be executed only once for the given input file\n\tactions -> It will execute for all the records present in the given input file\n\n\tactions might be a print statement, assignment statement, arithmetic manupilation, Increment/Decrement Operator, awk built-in functions, Loops/If Statement\n\n\tMoreover, actions should be present in Curly Brackets!\n\n3) Some variables in Action Command\n\t\n\ta) $0 -> entire line\n\tb) $1,$2,$3 -> first, second, third column of each line present in the file\n\tc) NR -> Line Number in the given input file\n\td) NF -> Number of columns in each line of the given input file\n\n\tNOTE : Unline in other unix command, here if we want to print the value of variable \t   then we won't preceed it with $ symbol\n\n4) For Selection Criteria\n\n\t$3 == \"Chirag\" // it will search for Chirag in third column and if there are any \t\n\t\t\t\t\t  spaces present there it won't ignore them!\n\n\t$3 ~ \"Chirag\" // it will search for Chirag in third column and if there are any \t\n\t\t\t\t\t  spaces present there it will ignore them!\n\n\tFor Example, let third Column be \"Chirag  \" // with spaces!!\n\tNot $3 == \"Chirag\", this won't be able to detect this\n\tbut $3 ~ \"Chirag\", would be able to detect the spaces!\n\n5) // -F is for Field Separtor\n\tawk -F\"|\" '$3 == \"DBA\" {print $1,$2,$3,$4}' employee.txt\n\tor\n\tawk -F\"|\" '/DBA/ {print $1,$2,$3,$4}' employee.txt\n\n\t//Here $3 == \"DBA\" is the Selection Criteria which will segregate only the lines which have third column as DBA and only for those lines would execute the action command!\n\n\t// {print $1,$2,$3,$4} is the Action Command which will print only the first four \t\tcoloumns\n\t// \"|\" tells that this is the Field Separtor\n\n6) //Character Class\n\t\n\tawk -F\"|\" '/[Cc]ho[wu]dhary/ {print \"Line No. (\" NR \") \" $1,$2,$3,$4}' employee.txt\n\n\t//here [Cc] means that the first character it may choose as 'C' or 'c'\n\t//Similarly [wu] means that it would choose the fourth as 'w' or 'u'\n\t//[wu] would return only one value, either w or u!\n\n\tHence both Chowdhary and choudhary would be printed!\n\n\n7) Select Lines!\n\t\n\tawk -F\"|\" 'NR == 3, NR == 6 {print \"Line No. (\" NR \") \" $1,$2,$3,$4}' employee.txt\n\n\t// NR denotes the line number!\n\t//This would print lines from 3 to 6!\n\n\n8) Redirecting the output to another file\n\tawk -F\"|\" 'NR == 3, NR == 6 {print \"Line No. (\" NR \") \" $1,$2,$3,$4 > \"new.txt\"}' employee.txt\n\n\t//The output would be redirected to the file new.txt\n\n9) Comparison Operators\n\t\n\tawk -F\"|\" '$3 == \"DBA\" || $3 == \"Manager\" {print $0}' employee.txt \n\n\t// if the third column contains either Manager or DBA, then print the complete line\n\n\tawk -F\"|\" '$2 == /[Cc]ho[wu]dhary/ {print \"Line No. (\" NR \") \" $1,$2,$3,$4}' employee.txt\n\n\t//This won't work as with Character Class [], we always have to use ~ and not == irrespective if we have spaces or not ,hence the right command is\n\n\tawk -F\"|\" '$2 ~ /[Cc]ho[wu]dhary/ {print \"Line No. (\" NR \") \" $1,$2,$3,$4}' employee.txt\n\n\t// now it would print the 6th and 7th line!\n\n10) Calling awk Subprogram\n\n\tawk -F\"|\" '$5 > 6000 && $4 == \"Technology\" {print $0}' employee.txt\n\n\tWe can create emp.awk and put $5 > 6000 && $4 == \"Technology\" {print $0} in that!\n\n\tand then run the below command\n\n\tawk -F\"|\" -f emp.awk employee.txt\n\n\t// -f is for reading input from file rather than from command line!\n\n\n11) Variables\n\t\n\tawk -F\"|\" '$5 > 5000 && $4 == \"Technology\" {count++; print count,$2,$3,$4,$5}' employee.txt\n\n\t//Initial value of count would be taken as 0 and it will just print 1,2,3,4 and like that!\n\n\n12) BEGIN and END in awk\n\n\tSyntax \n\tawk options 'BEGIN {actions} processing statements END {actions}' input_file\n\n\tBEGIN:\n\t\tIt should be in Caps and will be executed only once!\n\t\tIt can be used to initialize the value of variables or to print the heading \n\t\tbefore printing the output\n\n\tProcessing Statements:\n\t\tWill execute for all the records/lines present in the file\n\n\tEND:\n\t\tIt should in Caps and will also be executed only once!\n\t\tCan be used to print the value of variable after all the manupilation done\n\t\tprocessing!\n\n\n13) Printing total number of lines\n\n\tawk -F\"|\" ' BEGIN {count = 0;} {count++;} END {print \"Total Number of lines are: \", count;} ' employee.txt\n\n\tawk -F\"|\" '{count++;} END {print \"Total Number of lines are: \", count;} ' employee.txt\n\n\tawk  ' BEGIN {FS=\"|\";count = 0;} {count++;} END {print \"Total Number of lines are: \", count;} ' employee.txt\n\n\t// as we know that count would be initialized with 0\n\t// FS is for field Seprator and would be executed only once in the beginning!\n\n\n14) Count the number of Employees belonging to Technology Department\n\n\tawk -F\"|\" ' BEGIN{count = 0;} { if($4 == \"Technology\") count++;  } END {print \"Total number of Employees in Technology Department are:\", count;}  ' employee.txt\n\n\tor\n\n\tawk -F\"|\" ' BEGIN{count = 0;} $4 == \"Technology\" {count++;} END {print \"Total number of Employees in Technology Department are:\", count;}  ' employee.txt\n\n\n15) Print Average salary of Employees in Technology Department\n\n\tawk -F\"|\" ' BEGIN{count = 0; sum = 0;} $4 == \"Technology\" {count++; sum += $5 } END {print \"Average Salary of Employees in Technology Department is :\", sum*1.0/count;}  ' employee.txt\n\n\n16) BUILT-IN Functions of awk Command\n\t\n\ta) length -> returns the length of the complete line\n\n\tb) length(x) -> returns length of x\n\t\tEg: length($2)->returns the length of second column\n\n\tc) index(s1,s2) -> returns position of string s2 in s2\n\t\tEg: x = index(\"abcdef\",\"b\") returns 2\n\n\td) substr(str,m,n) -> returns the portion of length n, starting from position m in the given str\n\t\tEg: substr(\"Unix\",2,3) returns \"nix\"\n\n\te) sqrt(x) -> returns the square root of x\n\n\tf) system(\"Unix_cmd\") -> Runs unix command and returns its exit status\n\t   system(\"date\") -> print Unix date and time\n\n\tg) split(str,arr,\"/\") -> Splits the string into array using / as delimiter in string str; returns \t\t\t\t\t\t\t number of fields\n\t\tEg: spilt(%6,ar,\"/\")-> if $6 = 29/11/79 then ar[1] = 29; ar[2] = 11; ar[3] = 79 and returns 3\n\n\n17) Print the length of a line\n\techo \"Unix World\" | awk '{print length}'\n\n\t//will return the length of Unix World i.e 10\n\n\n18) Lines having length less than 40\n\n\tawk -F\"|\" 'length < 40 {print}' employee.txt\n\n\t//will print all the lines whose length is less than 40!\n\t// also {print} and {print $0} are same thing and will print the whole line!\n\n\n19) Index Example\n\t\n\tawk 'BEGIN {x=index(\"Unix World\", \"W\"); print x} '\n\n20) Substring Example\n\t\n\tawk -F\"|\" ' substr($6,7,2) > 78 {print $0} ' employee.txt\n\t// will print all the employees who ever born after 1978!\n\n21) Reversing a string\n\t\n\techo \"Welcome to Unix World\" | awk ' {for (i=length;i>0;i--) x = (x substr($0,i,1) );} END{print x} '\n\n\t// x = (x substr($0,i,1) -> this means that append substr($0,i,1) to x which is initially \" \"\n\t// here x is a string!\n\n\n\n\n\n\n\n\n\n\n\n",
+			"echo",
+			"int",
+			"1000000007",
+			"int",
+			";\n",
+			"long int",
+			"int",
+			"D",
+			"edges",
+			"isPath",
+			"'a'",
+			"adj",
+			"team1",
+			"team",
+			"team1",
+			" \"",
+			" \n",
+			"  ",
+			"T",
+			"Node",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"best_sum",
+			"current_sum",
+			"long long int",
+			"123",
+			"unsigned long long",
+			"int",
+			"long int",
+			"edges_colour",
+			"'q'",
+			"helper_array",
+			"Node *",
+			"StackEl"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"default_dir": "/home/cgupta3131/Workspace/CodeForces/xContests/Lyft_Level_5",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 33.3333320618
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Permutation_Game_C.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

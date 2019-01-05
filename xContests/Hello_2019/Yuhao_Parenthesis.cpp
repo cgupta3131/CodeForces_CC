@@ -50,31 +50,58 @@ int main()
 	for(int i = 0; i < n; i++) 
 		cin >> input[i];
 
-	map<int, int> m;
+	vector<int> vec1;
+	vector<int> vec2;
+
+	int perfect_count = 0;
 
 	for(int i=0;i<n;i++)
 	{
 		int x = degree(input[i]);
 		if(x < INT_MAX)
 		{	
-			if(m.find(x) == m.end()) //Means that we are not able to find 'x'
-				m[x] = 1;
+			if(x > 0)
+				vec1.push_back(x);
+			else if(x < 0)
+				vec2.push_back(-1*x);
 			else
-				m[x]++;
+				perfect_count++;
 		}
 	}
 
 	int total = 0;
+	total += perfect_count/2;
 
-	for(auto i = m.begin(); i != m.end();i++)
+	sort(vec1.begin(),vec1.end());
+	sort(vec2.begin(),vec2.end());
+
+	if(vec1.size() == 0 || vec2.size() == 0)
 	{
-		int x = i->first;
-		if(m.find(-x) != m.end()){ //Means that we are able to find '-x' in our map
-            total += min(i->second, m[-x]);
-        }
+		cout << total << endl;
+		return 0;
 	}
 
-	cout << total/2 << endl;
+	int min_value = 1000001;
+
+	int helper1[1000001];
+	int helper2[1000001];
+
+	for(int i=0;i<=min_value;i++)
+	{
+		helper1[i] = 0;
+		helper2[i] = 0;
+	}
+
+	for(int i=0;i<vec1.size();i++)
+		helper1[vec1[i]]++;
+
+	for(int i=0;i<vec2.size();i++)
+		helper2[vec2[i]]++;
+
+	for(int i=0;i<=min_value;i++)
+		total += min(helper1[i],helper2[i]);
+
+	cout << total << endl;
 
 	return 0 ; 
 

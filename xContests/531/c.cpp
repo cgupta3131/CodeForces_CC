@@ -28,35 +28,27 @@ typedef set<int> seti;
 
 int main()
 {
-	ll n;
-	cin >> n;
+	int n,x,y;
+	cin >> n >> x >> y;
 
-	if(n == 3)
-	{
-		cout << 0 << endl;
-		return 0;
-	}
+	int *arr = new int[n];
+	for(int i=0;i<n;i++)
+		cin >> arr[i];
 
-	if(n == 1 || n == 2)
+	if(x > y)
+		cout << n << endl;
+	if(x <= y)
 	{
-		cout << 1 << endl;
-		return 0;
-	}
+		int count = 0; //counts the number of doors with durability 
+					   //less than or equal to x
+		for(int i=0;i<n;i++)
+			if(arr[i] <= x)
+				count++;
 
-	if(n%2 == 0)
-	{
-		if(n%4 == 0)
-			cout << 0 << endl;
+		if(count%2 == 0)
+			cout << count/2 << endl;
 		else
-			cout << 1 << endl;
-	}
-
-	else
-	{
-		if( (n+1)%4 == 0)
-			cout << 0 << endl;
-		else
-			cout << 1 << endl;
+			cout << (count+1)/2 << endl;
 	}
 	
 	return 0 ; 

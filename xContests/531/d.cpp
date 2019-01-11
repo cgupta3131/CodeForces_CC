@@ -192,39 +192,7 @@ int main()
 
 	}
 
-	/*  else if(one > req )
-	{			
-		int temp_count = 0;
-
-		for(int i=0;i<n;i++)
-		{
-			if(input[i] == 1 && temp_count < req)
-				temp_count++;
-			else if(input[i] == 1 && temp_count >= req)
-				input[i] = 2;
-		}
-		print(input,n);
-		return 0;
-	}  */
-
-	/*  else if(one < req)
-	{
-		//cout << "hey" << endl;
-		int diff = two - req;
-		int temp_count = 0;
-
-		for(int i=0;i<n;i++)
-		{
-			if(input[i] == 2 && temp_count < diff)
-			{
-				input[i] = 1;
-				temp_count++;
-			} 	
-		}
-		print(input,n);
-		return 0;
-
-	}  */
+	
 	if(zero > req && one > req)
 	{
 		int temp_count0 = 0;

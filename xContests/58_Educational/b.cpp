@@ -38,7 +38,6 @@ int main()
 	int colon = 0;
 	int vertical = 0;
 
-
 	for(int i=0;i<len;i++)
 	{
 		if(input[i] == '[')
@@ -68,8 +67,6 @@ int main()
 	int start=0;
 	int end = len-1;
 
-
-
 	for(int i=0;i<len;i++)
 	{
 		if(input[i] == '[')
@@ -90,8 +87,8 @@ int main()
 	
 
 	int count =0;
-	int colon_start;
-	int colon_end;
+	int colon_start = -1;
+	int colon_end = -1 ;
 
 	for(int i=start+1;i<close;i++)
 	{

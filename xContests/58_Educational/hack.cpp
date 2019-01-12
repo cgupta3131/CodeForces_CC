@@ -1,37 +1,34 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
-int main()
-{
-    int q,s=1,j;
-
-    long long a,b,c;
-    cin >> q;
-    for(int w=0; w<q; w++)
-    {
-        cin >> a >> b >> c;
-        int x,y;
-        x=(a-1)/c;
-        y=(b+1)/c;
-        if(c==1 && a>1)cout << 1 << endl;
-        else
-        {
-            if(x>0)
-        {
-            j = 1;
-            if(j%c==0)a=j;
-            else a = j + (c - (j%c));
-            cout << a << endl;
+int main(){
+    string s;
+    cin >> s;
+    long int ans=0,largest=0;char openbracket='[',closebracket=']',colon=':';
+    bool opened=false,closed=false;int colons = 0;string smallstr="";
+    vector<long int> ob,cb;vector< pair<long int, long int > >col;int pipes = 0;
+    for(long int i=0;i<s.length();i++){
+            // cout << s[i]<<" ";
+            if(s[i]==openbracket)
+                ob.push_back(i);
+            else if(s[i]==closebracket && col.size()>1)
+                cb.push_back(i);
+            else if(s[i]==colon && ob.size()>0)
+                col.push_back(make_pair(i,pipes));
+        else if(s[i]=='|' && col.size()>0){
+            pipes++;
         }
-        else
-        {
-            j = b+1;
-            if(j%c==0)b=j;//lol
-            else b = j + (c-(j%c));
-            cout << b << endl;
-        }
-        }
-
-
     }
-    return 0;
+    int i=0;
+    {if(cb.size()>0){
+    for(i=col.size()-1;i>=0;i--){
+        if(col[i].first < cb[cb.size()-1])
+            break;
+    }}}
+    if(i>0){
+        cout << col[i].second+4<<endl;
+    }
+    else{
+        cout << -1 << endl;
+    }
+    //add 4 to end;
 }

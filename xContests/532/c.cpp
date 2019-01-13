@@ -23,7 +23,7 @@ typedef set<int> seti;
 #define f first
 #define s second
 #define MOD 1000000007
-#define ppi pair< pair<int,int>,int>
+#define PI 3.14159265
 
 //cin.ignore(numeric_limits<streamsize>::max(), '\n'); -> Clears the input buffer	
 
@@ -33,65 +33,18 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-	int t;
-	cin >> t;
+	int n,r;
+	cin >> n >> r;
 
-	while(t--)
-	{
-		int n;
-		cin >> n;
 
-		ppi *arr = new ppi[n];
-		
-		for(int i=0;i<n;i++)
-		{
-			cin >> arr[i].first.first >> arr[i].first.second;
-			arr[i].second = i;
-		}
+	long double pi = 3.1415926535897;
+	long double sine = sin( pi/ ((double)n) );
+	long double num = r*sine;
+	long double den =  (double)1 - sine;
 
-		sort(arr,arr+n);
-		int ans[n] = {0};
+	//cout << setprecision(13) << sine << " " << num << " " << den << "\n";
 
-		ans[ arr[0].second ] = 1;
-
-		int g1min = arr[0].first.first;
-		int g1max = arr[0].first.second;
-
-		int flag = 0;
-		for(int i=1;i<n;i++)
-		{
-			if(flag == 1)
-			{
-				ans[arr[i].second] = 2;
-				continue;
-			}
-
-			if(arr[i].first.first >= g1min && arr[i].first.first <= g1max)
-			{
-				ans[arr[i].second] = 1;
-				if(arr[i].first.second > g1max)
-					g1max = arr[i].first.second;
-			}
-
-			else
-			{
-				ans[arr[i].second] = 2;
-				flag = 1;
-			}
-
-		}
-
-		if(flag == 0)
-			cout << -1 << endl;
-		else
-		{
-			for(int i=0;i<n;i++)
-				cout << ans[i] << " ";
-			cout << endl;
-		}
-
-	}
-
+	cout << setprecision(13) << (long double)num/den << "\n";
 
 	return 0 ; 
 

@@ -23,7 +23,6 @@ typedef set<int> seti;
 #define f first
 #define s second
 #define MOD 1000000007
-#define ppi pair< pair<int,int>,int>
 
 //cin.ignore(numeric_limits<streamsize>::max(), '\n'); -> Clears the input buffer	
 
@@ -33,64 +32,58 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-	int t;
-	cin >> t;
+	int n,m;
+	cin >> n >> m;
 
-	while(t--)
+	int *count = new int[n+1];
+
+	for(int i=1;i<=n;i++)
+		count[i] = 0;
+	
+	int req = n;
+
+	if(n > m)
 	{
-		int n;
-		cin >> n;
+		for(int i=0;i<m;i++)
+			cout << 0;
+		cout << "\n";	
 
-		ppi *arr = new ppi[n];
-		
-		for(int i=0;i<n;i++)
-		{
-			cin >> arr[i].first.first >> arr[i].first.second;
-			arr[i].second = i;
-		}
-
-		sort(arr,arr+n);
-		int ans[n] = {0};
-
-		ans[ arr[0].second ] = 1;
-
-		int g1min = arr[0].first.first;
-		int g1max = arr[0].first.second;
-
-		int flag = 0;
-		for(int i=1;i<n;i++)
-		{
-			if(flag == 1)
-			{
-				ans[arr[i].second] = 2;
-				continue;
-			}
-
-			if(arr[i].first.first >= g1min && arr[i].first.first <= g1max)
-			{
-				ans[arr[i].second] = 1;
-				if(arr[i].first.second > g1max)
-					g1max = arr[i].first.second;
-			}
-
-			else
-			{
-				ans[arr[i].second] = 2;
-				flag = 1;
-			}
-
-		}
-
-		if(flag == 0)
-			cout << -1 << endl;
-		else
-		{
-			for(int i=0;i<n;i++)
-				cout << ans[i] << " ";
-			cout << endl;
-		}
-
+		return 0;
 	}
+
+	for(int i=0;i<m;i++)
+	{
+		int x; 
+		cin >> x;
+
+		if(count[x] == 0)
+		{
+			req--;
+			count[x]++;
+		}
+
+		else
+			count[x]++;
+
+		if(req == 0)
+		{
+			for(int j=1;j<=n;j++)
+			{
+				if(count[j] == 1)
+					req++;
+				count[j]--;
+			}
+
+			cout << 1;
+		}
+
+		else
+			cout << 0;
+	}
+
+	cout << "\n";
+
+
 
 
 	return 0 ; 

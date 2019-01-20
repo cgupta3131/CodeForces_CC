@@ -1,30 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-typedef long long ll;
-typedef unordered_map<int, int> umapii;
-typedef unordered_map<int, bool> umapib;
-typedef unordered_map<string, int> umapsi;
-typedef unordered_map<string, string> umapss;
-typedef map<string, int> mapsi;
-typedef map<pair<int, int>, int> mappiii;
-typedef map<int, int> mapii;
-typedef map<int, bool> mapib;
-typedef pair<int, int> pii;
-typedef pair<pii,int> ppi;
-typedef pair<long long, long long> pll;
-typedef unordered_set<int> useti;
-typedef set<int> seti;
-#define uset unordered_set
-#define it iterator
-#define mp make_pair
-#define pb push_back
-#define all(x) (x).begin(), (x).end()
-#define allp(x) (x)->begin(), (x)->end()
-#define f first
-#define s second
-#define MOD 1000000007
-
 //cin.ignore(numeric_limits<streamsize>::max(), '\n'); -> Clears the input buffer	
 
 int main()
@@ -33,7 +9,55 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-	
+    int n,k;
+    cin >> n >> k;
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    string s;
+    cin >> s;
+
+    int *count = new int[26];
+    for(int i=0;i<26;i++)
+    	count[i] = 0;
+    
+   	if(n == 1)
+   	{
+   		cout << 1 << endl;
+   		return 0;
+   	}
+
+   	char prev = s[0];
+   	char curr;
+   	int temp = 1;
+
+   	for(int i=1;i<n;i++)
+   	{
+   		curr = s[i];
+   		if(prev == curr)
+   		{
+   			prev = curr;
+   			temp++;
+   			if(i == n-1)
+   				count[prev-'a'] += temp/k;
+   			continue;
+   		}
+   		else
+   		{
+   			if(i == n-1)
+   				count[curr-'a'] += temp/k;
+   			
+   			count[prev-'a'] += temp/k;
+   			temp = 1;
+   			prev = curr;
+   		}
+   	}
+   	int max = 0;
+   	for(int i=0;i<26;i++)
+   		if(count[i] > max)
+   			max = count[i];
+
+   	cout << max << endl;
+
 	return 0 ; 
 
 }

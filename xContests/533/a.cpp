@@ -1,30 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-typedef long long ll;
-typedef unordered_map<int, int> umapii;
-typedef unordered_map<int, bool> umapib;
-typedef unordered_map<string, int> umapsi;
-typedef unordered_map<string, string> umapss;
-typedef map<string, int> mapsi;
-typedef map<pair<int, int>, int> mappiii;
-typedef map<int, int> mapii;
-typedef map<int, bool> mapib;
-typedef pair<int, int> pii;
-typedef pair<pii,int> ppi;
-typedef pair<long long, long long> pll;
-typedef unordered_set<int> useti;
-typedef set<int> seti;
-#define uset unordered_set
-#define it iterator
-#define mp make_pair
-#define pb push_back
-#define all(x) (x).begin(), (x).end()
-#define allp(x) (x)->begin(), (x)->end()
-#define f first
-#define s second
-#define MOD 1000000007
-
 //cin.ignore(numeric_limits<streamsize>::max(), '\n'); -> Clears the input buffer	
 
 int main()
@@ -32,6 +8,45 @@ int main()
 	ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
+
+	int n;
+	cin >> n;
+
+	int *length = new int[n];
+	for(int i=0;i<n;i++)
+		cin >> length[i];
+
+	sort(length,length+n);
+
+	int minCost = INT_MAX;
+	int t = -1;
+	
+	for(int i=length[0];i<=length[n-1];i++)
+	{
+		int tt = i;
+		int possible_min_cost = 0;
+		for(int i=0;i<n;i++)
+		{
+			if(length[i] == tt || length[i]+1 == tt || length[i]-1 == tt)
+				continue;
+			else
+			{
+				if(length[i] > tt)
+					possible_min_cost += length[i] - tt -1;
+				else
+					possible_min_cost += tt - length[i] -1;
+			}
+		}
+
+		if(possible_min_cost < minCost)
+		{
+			minCost = possible_min_cost;
+			t = tt;
+		}
+	}
+
+	cout << t << " " << minCost << endl;
+
 
 	
 	return 0 ; 

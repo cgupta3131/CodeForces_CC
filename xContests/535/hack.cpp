@@ -14,6 +14,7 @@ int main()
     }
     sort(a,a+n);
     sort(b,b+n);
+    
     p=a[n-1];
     for(int i=0;i<n;i++)
     {
@@ -26,7 +27,6 @@ int main()
     long long int maxi=0,maxnum;
     if(count==n)
     {
-        cout << "hey" << "\n";
         count1=0;
         for(int i=0;i<n;i++)
         {

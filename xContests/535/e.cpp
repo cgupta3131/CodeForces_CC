@@ -33,28 +33,9 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-	int q;
-	cin >> q;
+  int n, m;
+  cin >> n >> m;
 
-	while(q--)
-	{
-
-		ll l1,r1,l2,r2;
-		cin >> l1 >> r1 >> l2 >> r2;
-
-		if(l1 != l2)
-		{
-			cout << l1 << " " << l2 << "\n";;
-			continue;
-		}
-
-		else
-		{
-			cout << l1 << " " << r2 << endl;
-			continue;
-		}
-
-	}
 	return 0 ;
 
 }

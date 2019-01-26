@@ -33,28 +33,20 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-	int q;
-	cin >> q;
+    int n;
+    cin >> n;
 
-	while(q--)
-	{
 
-		ll l1,r1,l2,r2;
-		cin >> l1 >> r1 >> l2 >> r2;
+    while(n--)
+    {
+    	ll k,x;
+    	cin >> k >> x;
 
-		if(l1 != l2)
-		{
-			cout << l1 << " " << l2 << "\n";;
-			continue;
-		}
-
-		else
-		{
-			cout << l1 << " " << r2 << endl;
-			continue;
-		}
-
-	}
+    	ll value = 9*(k-1);
+    	cout << value + x << endl;
+    }
+    
+    
 	return 0 ;
 
 }

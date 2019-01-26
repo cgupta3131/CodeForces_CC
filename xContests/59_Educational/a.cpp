@@ -33,28 +33,36 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-	int q;
-	cin >> q;
+    int q;
+    cin >> q;
 
-	while(q--)
-	{
+    while(q--)
+    {
+    	int n;
+    	cin >> n;
 
-		ll l1,r1,l2,r2;
-		cin >> l1 >> r1 >> l2 >> r2;
+    	string s;
+    	cin >> s;
+    	cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
-		if(l1 != l2)
-		{
-			cout << l1 << " " << l2 << "\n";;
-			continue;
-		}
+    	int first1 = s[0] - '0';
+    	int second1 = s[1] - '0';
+    	if(n == 2 && first1 >= second1)
+    		cout << "NO" << "\n";
+    	else
+    	{
+    		cout << "YES" << endl;
+    		cout << 2 << endl;
+    		cout << s[0] << " ";
+    		for(int i=1;i<n;i++)
+    			cout << s[i];
+    		cout << endl;
+    	}
 
-		else
-		{
-			cout << l1 << " " << r2 << endl;
-			continue;
-		}
-
-	}
+    }
+    
+    
+    
 	return 0 ;
 
 }

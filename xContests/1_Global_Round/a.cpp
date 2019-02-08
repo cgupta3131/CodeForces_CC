@@ -33,7 +33,33 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    
+    int b,k;
+    cin >> b >> k;
+
+    int *list = new int[k];
+    int odd_count = 0;
+    for(int i=0;i<k;i++)
+    {
+    	cin >> list[i];
+    	if(list[i]%2 == 1)
+    		odd_count++;
+    }
+
+    if(b%2 == 0)
+    {
+    	if(list[k-1]%2 == 0)
+    		cout << "even" << "\n";
+    	else
+    		cout << "odd" << "\n";
+    }
+
+    else
+    {
+    	if(odd_count%2 == 0)
+    		cout << "even" << "\n";
+    	else
+    		cout << "odd" << "\n";
+    }
     
     
 	return 0 ;

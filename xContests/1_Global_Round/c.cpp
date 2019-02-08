@@ -27,12 +27,71 @@ typedef set<int> seti;
 
 //cin.ignore(numeric_limits<streamsize>::max(), '\n'); -> Clears the input buffer
 
+ll greatestDivisor(ll n)
+{
+	ll max = 1;
+	for (int i=2; i<=sqrt(n); i++) 
+    { 
+        if (n%i == 0) 
+        { 
+            if (n/i == i) 
+            {
+
+                if(i > max)
+                	max = i;
+            }
+  
+            else // Otherwise print both 
+            {
+                if(i > max)
+                	max = i;
+                if(n/i > max)
+                	max = n/i;
+            }
+        } 
+    }
+
+    return max;	
+}
+
 int main()
 {
 	ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
 
+    ll q;
+    cin >> q;
+
+    while(q--)
+    {
+    	ll a;
+    	cin >> a;
+    	int flag = 0;
+    	int i;
+    	ll temp = 0;
+    	for(i=2;i<=25;i++)
+    	{
+    		temp = pow(2,i) - 1;
+    		if(temp == a)
+    		{
+    			flag = 1;
+    			break;
+    		}
+
+    		if(temp > a)
+    			break;
+    	}
+
+
+    	if(flag == 1)
+    	{
+    		cout << greatestDivisor(a) << endl;
+    	}
+    	else
+    		cout << temp << endl;
+
+    }
     
     
     

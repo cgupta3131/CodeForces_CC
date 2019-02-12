@@ -26,6 +26,9 @@ typedef set<int> seti;
 #define MOD 1000000007
 
 //cin.ignore(numeric_limits<streamsize>::max(), '\n'); -> Clears the input buffer
+//The below code is for generating highly random strings! (Use them inplace of rand)
+/*mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+shuffle(permutation.begin(), permutation.end(), rng);*/
 
 int main()
 {
@@ -33,65 +36,8 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int x,y,z;
-    int a,b,c;
-
-    cin >> x >> y >> z >> a >> b >> c;
     
-    a -= x;
-    if(a<0)
-    {
-    	cout << "NO" << endl;
-    	return 0;
-    }
-
-
-   	if(y >= b)
-   	{
-   		y -= b;
-   		b=0;
-   		a -= y;
-
-   		if(a<0)
-   		{
-   			cout << "NO" << endl;
-    		return 0;
-   		}
-
-   		else
-   		{
-   			int sum = a+b+c;
-   			if(z <= sum)
-   			{
-   				cout << "YES" << endl;
-   				return 0;
-   			}
-
-   			else
-   			{
-   				cout << "NO" << endl;
-    			return 0;
-   			}
-   		}
-   	}
-
-   	if(y < b)
-   	{
-   		b -= y;
-   		int sum = a+b+c;
-   		if(z <= sum)
-		{
-			cout << "YES" << endl;
-			return 0;
-		}
-
-		else
-		{
-			cout << "NO" << endl;
-		return 0;
-		}
-
-   	}
+    
     
 	return 0 ;
 

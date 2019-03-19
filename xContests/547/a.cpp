@@ -26,6 +26,26 @@ typedef set<int> seti;
 #define MOD 1000000007
 
 //cin.ignore(numeric_limits<streamsize>::max(), '\n'); -> Clears the input buffer
+vector<ll> factors;
+void primeFactors(ll n) 
+{ 
+    while (n%2 == 0) 
+    { 
+    	factors.pb(2);
+        n = n/2; 
+    } 
+    for (int i = 3; i <= sqrt(n); i = i+2) 
+    { 
+        while (n%i == 0) 
+        { 
+        	factors.pb(i);
+            n = n/i; 
+        } 
+    } 
+
+    if (n > 2) 
+    	factors.pb(n);
+} 
 
 int main()
 {
@@ -33,11 +53,34 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int n,k;
-    cin >> n >> k;
+    ll n,m;
+    cin >> n >> m;
 
-    int a;
-    a = 2*n + 1 + 2*min(n-k,k-1) + max(n-k,k-1); 
+    ll rem = m%n;
+
+    if(rem != 0)
+    {
+    	cout << -1 << endl;
+    }
+
+    else
+    {
+    	ll d = m/n;
+    	if(d == 1)
+    	{
+    		cout << 0 << endl;
+    		return 0;
+    	}
+    	primeFactors(d);
+
+
+    	if(factors[factors.size()-1] == 2 || factors[factors.size()-1] == 3 )
+    		cout << factors.size() << endl;
+
+    	else
+    		cout << -1 << endl;
+
+    }
     
     
 	return 0 ;

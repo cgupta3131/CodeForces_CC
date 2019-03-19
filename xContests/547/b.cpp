@@ -33,11 +33,42 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int n,k;
-    cin >> n >> k;
+    int n;
+    cin >> n;
 
-    int a;
-    a = 2*n + 1 + 2*min(n-k,k-1) + max(n-k,k-1); 
+    int *input = new int[n];
+    for(int i=0;i<n;i++)
+    	cin >> input[i];
+
+    vector<int> vec;
+ 
+    for(int i=0;i<n;i++)
+    	vec.pb(input[i]);
+    for(int i=0;i<n;i++)
+    	vec.pb(input[i]);
+    for(int i=0;i<n;i++)
+    	vec.pb(input[i]);
+
+    int max_con = -1;
+    int curr = 0;
+
+    for(int i=0;i<3*n;i++)
+    {
+    	if(vec[i] == 1)
+    		curr++;
+    	else
+    	{
+    		if(curr > max_con)
+    			max_con = curr;
+    		curr = 0;
+    	}
+    }
+
+    cout << max_con << endl;
+
+    	
+
+    
     
     
 	return 0 ;

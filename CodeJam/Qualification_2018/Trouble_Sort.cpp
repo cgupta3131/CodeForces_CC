@@ -33,24 +33,58 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
 
-    ll n,a[20005],sum = 0;
-    cin >> n;
-    for(int i=0;i<n;i++)    
-        cin >> a[i];
-    a[n] = 2000000000;
-
-    for(int i=n-1;i>=0;i--)
+    int t;
+    cin >> t;
+    for(int tc=1;tc<=t;tc++)
     {
-        if(a[i]<a[i+1])
-            sum += a[i];
-        else
-        {
-            a[i] = max((ll)0,a[i+1]-1);
-            sum += a[i];
-        }
-    }
+    	cout << "Case #" << tc << ": ";
+    	int n;
+    	cin >> n;
 
-    cout << sum;
+    	ll *input = new ll[n];
+    	for(int i=0;i<n;i++)
+    		cin >> input[i];
+
+    	vector<ll> pos1;
+    	vector<ll> pos2;
+
+    	for(int i=0;i<n;i++)
+    	{
+    		if(i%2 == 0)
+    			pos1.pb(input[i]);
+    		else
+    			pos2.pb(input[i]);
+    	}
+
+    	sort(pos1.begin(),pos1.end());
+    	sort(pos2.begin(),pos2.end());
+    	sort(input,input+n);
+
+    	int flag = 0;
+    	for(int i=0;i<n;i++)
+    	{
+    		ll ele1 = input[i];
+    		ll ele2;
+    		if(i%2 == 0)
+    			ele2 = pos1[i/2];
+    		else
+    			ele2 = pos2[i/2];
+    		if(ele1 != ele2)
+    		{
+    			flag = 1;
+    			cout << i << endl;
+    			break;
+    		}
+    	}
+
+    	if(flag == 1)
+    		continue;
+    	else
+    		cout << "OK" << endl;
+
+    }
+    
+    
 	return 0 ;
 
 }

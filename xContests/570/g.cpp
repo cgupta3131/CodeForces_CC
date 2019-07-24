@@ -82,6 +82,7 @@ int main()
     	reverse(aux.begin(),aux.end());
     	for(int i=0;i<aux.size();i++)
     		cout << aux[i].first << " " << aux[i].second << endl;
+    	
     	/*sort(aux.begin(), aux.end(), greater<int>());
     	int final = aux[0];
     	for(int i=1;i<aux.size();i++)

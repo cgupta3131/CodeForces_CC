@@ -1,0 +1,1 @@
+babbaaabbb bbaaabb aaabbabba aabaabbba abb bbbabaab aabbb abaa aab babababbbb abaaabba aabbabaaa aabababba bbbabbbbb bbbabaabba ba ba bb a bba ababbbab a bbaa abaabbb bbbbbaaba bbabbb ab bbbbb abbaba baabba bab aabaabb aaba babaab bbbbbabbbb abaaabbaa babaaba aaabbb aabaabaaab bbaab bbaaaabab bababbb babaaaab 

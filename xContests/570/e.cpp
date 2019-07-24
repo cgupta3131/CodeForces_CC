@@ -6,7 +6,7 @@ typedef unordered_map<int, int> umapii;
 typedef unordered_map<int, bool> umapib;
 typedef unordered_map<string, int> umapsi;
 typedef unordered_map<string, string> umapss;
-typedef map<string, int> mapsi;
+typeedf map<string, int> mapsi;
 typedef map<pair<int, int>, int> mappiii;
 typedef map<int, int> mapii;
 typedef map<int, bool> mapib;
@@ -75,7 +75,7 @@ int main()
     int cost = 0;
     /*for(int i=0;i<=n;i++)
     	cout << dp[i] << " ";
-    cout << endl;*/	
+    cout << enwedl;*/	
 
     int total = 0;
     for(int i=0;i<=n;i++)

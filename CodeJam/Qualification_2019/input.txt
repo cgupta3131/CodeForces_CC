@@ -1,0 +1,78 @@
+Group
+	CSEA
+		Merchandies
+			Category(Footwear)
+				ProdID(F01)
+					GroupName(CSEA)
+					Category (Fixed Array-List)
+					Image (Array-List)
+					Material
+					Prod-ID
+					Rating
+						UserID
+							Comment
+							Email
+							PID
+							Stars
+							UserID
+					Price (As a String)
+					Quantity (Array-List)
+					Size (Array-List)
+					AccessGroup (Array-List)
+					OrderType (1->Limited, 2-> Request)
+		Members
+			Email-ID (Array-List)
+		Details
+			GroupName
+			Locations (Array-List)
+			UPI
+			Contact (Of Head of org)
+			EmailID (Of Head of org)
+		Orders
+			UID
+				OrderID
+					Address
+					Category
+					Contact
+					Date
+					Email
+					Image
+					IsPlaced
+					OrderID
+					ProductID
+					GroupName
+					Price
+					Quantity
+					Size
+					Status
+					Time
+					UserID
+		Requests
+
+			pID
+				OrderID
+					Category
+					Contact
+					Date
+					Email
+					Image
+					IsPlaced
+					OrderID
+					ProductID
+					GroupName
+					Price
+					Quantity
+					Size
+					Status
+					Time
+					UserID
+					IsPaid
+Users
+	UserID	
+		Name
+		Contact
+		EmailID
+		Hostel
+		Branch
+		WalletMoney
+		Groups (Array-List)
